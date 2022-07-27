@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logotab.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dating Application</title>
+  </head>
+  <body>
+    <header>
+      <div class="main-heading">
+        <h1>Dating Application</h1>
+        <p>Fill out the form carefully for registration</p>
+      </div>
+    </header>
+
+    <section id="container">
+      <div class="main">
+        <fieldset>
+          <legend id="legend">Registration</legend>
+          <div class="main-form">
+            <form action="index.htm" autocomplete="off">
+              <div class="inline-name">
+                <label for="fname">First Name: </label>
+                <input
+                  type="text"
+                  name="fname"
+                  placeholder="Enter Your Name"
+                  id="fname"
+                  required="true"
+                />
+
+                <label for="mname">Middle Name: </label>
+                <input
+                  type="text"
+                  name="mname"
+                  placeholder="Enter Middle Name"
+                  id="mname"
+                  required="true"
+                />
+
+                <label for="lname">Last Name: </label>
+                <input
+                  type="text"
+                  name="lname"
+                  placeholder="Enter Last Name"
+                  id="lname"
+                  required="true"
+                />
+              </div>
+
+              <div class="email">
+                <lebel for="email" id="lebelmail">Email: </lebel>
+                <input
+                  type="email"
+                  name="lname"
+                  placeholder="Email"
+                  id="email"
+                  required="true"
+                />
+
+                <div class="phone">
+                  <lebel for="phone" id="lebelphone">Phone: </lebel>
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone"
+                    id="phone"
+                    required="true"
+                  />
+                </div>
+
+                <div class="cname">
+                  <lebel for="cname" id="lebelcname">Company Name: </lebel>
+                  <input
+                    type="text"
+                    name="cname"
+                    placeholder="Company Name"
+                    id="cname"
+                    required="true"
+                  />
+                </div>
+              </div>
+
+              <div class="education">
+                <h4 id="selEdu">- Select Country</h4>
+                <select name="education" id="edu">
+                  <option value="post-graduation">India</option>
+                  <option value="graduation">Germany</option>
+                  <option value="higher">Canada</option>
+                  <option value="lower">USA</option>
+                </select>
+              </div>
+
+              <div class="gender">
+                <div class="male">
+                  <label for="male"> Gender :</label>
+                  <input type="radio" name="gender" value="male" /> Male<br />
+                </div>
+
+                <div class="female">
+                  <input type="radio" name="gender" value="male" /> Female<br />
+                </div>
+
+                <div class="other">
+                  <input type="radio" name="gender" value="Others" />
+                  Others<br />
+                </div>
+              </div>
+
+              <div class="checkbox">
+                <h4 id="headingcheck">Check this boxes if You agreed</h4>
+                <div class="check1">
+                  <input type="checkbox" name="check1" />
+                  <label for="check1"> English </label><br />
+                </div>
+
+                <div class="check2">
+                  <input type="checkbox" name="check2" />
+                  <label for="check2"> Marathi</label><br />
+                </div>
+
+                <div class="check3">
+                  <input type="checkbox" name="check3" />
+                  <label for="check3">  Hindi</label><br />
+                </div>
+
+                <div class="essay">
+                  <label for="lebelopinion" class="opinion">- Comment</label
+                  ><br />
+                  <textarea
+                    name="lebelopinion"
+                    cols="100"
+                    rows="15"
+                    placeholder="Enter Your Comments"
+                  ></textarea>
+                </div>
+
+                <div class="ctc">
+                  <input type="checkbox" name="checktc" />
+                  <label for="checktc">
+                    I agree with <span>Terms and Condition</span></label
+                  ><br />
+                </div>
+
+                <input type="submit" class="formbtn" />
+              </div>
+            </form>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+  </body>
+</html>
